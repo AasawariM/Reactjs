@@ -10,11 +10,24 @@
   margin: 0.5rem;
 }
 
-#user-image {
-  width: 90px;
+.user-image {
+  height: 80px;
+  width: 80px;
   border-radius: 50px;
-  background-color: burlywood;
-  padding: 10px;
+  background-color: white;
 }
 
-#user-desc {}
+.user-name {
+  font-size: 2.3rem;
+  /* 1rem = root font size
+Root font size comes from html or * selector 
+since you set 1rem = 20px
+So:
+2rem = 2 × 20px = 40px
+*/
+}
+
+.user-desc {
+  font-size: 1.5rem;
+  color: blueviolet;
+}
