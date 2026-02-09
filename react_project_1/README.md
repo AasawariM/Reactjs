@@ -5,9 +5,9 @@ Basic React app created with Vite to practice React fundamentals.
 ## What I Practiced
 
 - What are React components
-- How to create your own component (UserCard)
+- How to create your own component (`UserCard`)
 - Importing and using CSS inside a component
-- Passing data between components using props
+- Passing data between components using **props**
   - Text (name, description)
   - Images
   - Inline styles
