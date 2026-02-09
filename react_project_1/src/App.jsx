@@ -1,11 +1,13 @@
 import "./App.css";
+import UserCard from "./components/UserCard";
 
 function App() {
   return (
-    <>
-      <h1>Hello React with Vite</h1>
-      <p>This is my first React App</p>
-    </>
+    <div className="container">
+      <UserCard />
+      <UserCard />
+      <UserCard />
+    </div>
   );
 }
 export default App;
