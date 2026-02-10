@@ -1,0 +1,9 @@
+.background {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  object-fit: cover;
+  /* image will be behind the text */
+  z-index: -1;
+}
