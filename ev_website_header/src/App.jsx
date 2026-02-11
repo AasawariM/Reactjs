@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Background from "./Components/Background/Background";
+import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
   // heroData array with 3 objects
@@ -17,6 +18,8 @@ function App() {
     <div>
       {/* psasing 2 props to Background.jsx */}
       <Background heroCount={heroCount} playStatus={playStatus} />
+      {/* navbar component */}
+      <Navbar />
     </div>
   );
 }
