@@ -23,4 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 ev_website_header/src/assets/*
+src/assets/
 
